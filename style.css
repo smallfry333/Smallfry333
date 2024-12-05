@@ -1,17 +1,18 @@
-/* CSS Variables */
+/* Define CSS Variables */
+:root {
+    --background-color-light: #fff;
+    --text-color-light: #333;
+    --background-color-dark: #333;
+    --text-color-dark: #fff;
+    --primary-color: #3498db;
+}
 
-
+/* Basic Styles */
 body {
     background-color: var(--background-color-light);
     color: var(--text-color-light);
     font-family: Georgia, serif;
     transition: background-color 0.3s, color 0.3s;
-}
-
-/* Dark Mode Styles */
-body.dark-mode {
-    background-color: var(--background-color-dark);
-    color: var(--text-color-dark);
 }
 
 header {
@@ -39,6 +40,12 @@ button#theme-toggle:hover {
 .project-card a {
     color: var(--primary-color);
     text-decoration: none;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
 }
 
 /* Optional transition for smooth theme changes */
