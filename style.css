@@ -1,5 +1,3 @@
-
-
 /* Define CSS Variables */
 :root {
     --background-color-light: #fff;
@@ -64,7 +62,12 @@ button#theme-toggle:hover {
     padding: 10px;
     border: 1px solid #ccc;
     margin-bottom: 20px;
-    background-color:  #f9f9f9;
+    background-color: #f9f9f9;
+}
+
+/* Ensure the text inside the project cards stays black */
+.project-card p {
+    color: #333; /* Make text inside the project cards black */
 }
 
 .project-card a {
