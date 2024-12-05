@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #fff;
+    --text-color: #333;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+button:hover {
+    background-color: var(--primary-color);
+    transition: background-color 0.3s ease;
+}
