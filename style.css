@@ -1,3 +1,5 @@
+
+
 /* Define CSS Variables */
 :root {
     --background-color-light: #fff;
@@ -13,11 +15,35 @@ body {
     color: var(--text-color-light);
     font-family: Georgia, serif;
     transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     padding: 20px;
     text-align: center;
+}
+
+nav {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
 }
 
 button#theme-toggle {
@@ -35,6 +61,10 @@ button#theme-toggle:hover {
 
 .project-card {
     margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
 }
 
 .project-card a {
@@ -48,7 +78,27 @@ body.dark-mode {
     color: var(--text-color-dark);
 }
 
-/* Optional transition for smooth theme changes */
-body, header, button {
+body, header, button, .project-card {
     transition: background-color 0.3s, color 0.3s;
+}
+
+/* Responsive Layout using Flexbox */
+section {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    header, nav, section {
+        padding: 10px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
 }
