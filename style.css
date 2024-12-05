@@ -20,11 +20,30 @@ body {
         grid-template-columns: 1fr;
     }
 }
-.dark-mode {
+button#theme-toggle {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button#theme-toggle:hover {
+    background-color: #2980b9;
+}
+
+
+body.dark-mode {
     background-color: #333;
     color: #fff;
 }
-button:hover {
-    background-color: var(--primary-color);
-    transition: background-color 0.3s ease;
+
+body.dark-mode header {
+    background-color: #2c3e50;
+}
+
+
+body, header, button {
+    transition: background-color 0.3s, color 0.3s;
 }
