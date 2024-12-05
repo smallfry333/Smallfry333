@@ -1,17 +1,10 @@
 /* CSS Variables */
-:root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --background-color-light: #fff;
-    --text-color-light: #333;
-    --background-color-dark: #333;
-    --text-color-dark: #fff;
-}
+
 
 body {
     background-color: var(--background-color-light);
     color: var(--text-color-light);
-    font-family: 'Arial', sans-serif;
+    font-family: Georgia, serif;
     transition: background-color 0.3s, color 0.3s;
 }
 
