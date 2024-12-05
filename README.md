@@ -19,7 +19,7 @@ Welcome to my personal portfolio! This website showcases my web development skil
 
 You can view the live demo of my portfolio here:
 
-[Personal Portfolio]([https://username.github.io/repository-name](https://github.com/smallfry333/Smallfry333))
+[Personal Portfolio](https://github.com/smallfry333/Smallfry333))
 
 Replace `username` with your GitHub username and `repository-name` with the name of your GitHub repository.
 
