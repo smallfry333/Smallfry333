@@ -4,10 +4,10 @@ Welcome to my personal portfolio! This website showcases my web development skil
 
 ## Features
 
-- **Home Page**: Introduction to who I am and what I do.
-- **About Me**: More details about my journey as a web developer.
-- **Projects**: A showcase of my projects with links to their respective repositories on GitHub.
-- **Contact**: A form for getting in touch with me directly.
+- **Home Page**: My name is Jonathan Yarde but I also go by Small Fry around my campus of Lincoln University.
+- **About Me**: I have learned how to code since high school but my first ever website made would be in college during my fall semester of my sophmore year.
+- **Projects**: Some of my projects is shown on my other website <a href="https://smallfry333.github.io/Smallfry333/"> here.</a>
+- **Contact**: jonathan.yarde@lions.lincoln.edu
 
 ## Technologies Used
 
