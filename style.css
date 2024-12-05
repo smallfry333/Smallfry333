@@ -1,28 +1,25 @@
-
+/* CSS Variables */
 :root {
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
-    --background-color: #fff;
-    --text-color: #333;
+    --background-color-light: #fff;
+    --text-color-light: #333;
+    --background-color-dark: #333;
+    --text-color-dark: #fff;
 }
 
 body {
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
     font-family: 'Arial', sans-serif;
     transition: background-color 0.3s, color 0.3s;
 }
 
-
+/* Dark Mode Styles */
 body.dark-mode {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
 }
-
-body.dark-mode header {
-    background-color: #2c3e50;
-}
-
 
 header {
     padding: 20px;
@@ -32,7 +29,7 @@ header {
 button#theme-toggle {
     margin: 20px;
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: var(--primary-color);
     color: white;
     border: none;
     cursor: pointer;
@@ -42,12 +39,6 @@ button#theme-toggle:hover {
     background-color: #2980b9;
 }
 
-
-body, header, button {
-    transition: background-color 0.3s, color 0.3s;
-}
-
-
 .project-card {
     margin-top: 20px;
 }
@@ -55,4 +46,9 @@ body, header, button {
 .project-card a {
     color: var(--primary-color);
     text-decoration: none;
+}
+
+/* Optional transition for smooth theme changes */
+body, header, button {
+    transition: background-color 0.3s, color 0.3s;
 }
