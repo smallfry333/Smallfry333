@@ -1,4 +1,5 @@
-// Wait for the DOM to load before executing
+
+
 document.addEventListener('DOMContentLoaded', function () {
     // Select the theme toggle button
     const themeToggleButton = document.getElementById('theme-toggle');
@@ -20,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Optional: Smooth scroll for anchor links
+    // Smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -30,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Typewriter effect for "Welcome to My Portfolio"
+    // Typing effect for "Welcome to My Portfolio"
     let i = 0;
     const text = "Welcome to My Portfolio";
     const speed = 100;
