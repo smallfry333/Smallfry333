@@ -11,7 +11,7 @@ Welcome to my personal portfolio! This website showcases my web development skil
 
 ## Technologies Used
 
-- **HTML5**
+- **HTML**
 - **CSS**
 - **JavaScript**
 
