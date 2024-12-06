@@ -11,7 +11,7 @@
 body {
     background-color: var(--background-color-light);
     color: var(--text-color-light);
-    font-family: Georgia, serif;
+    font-family: Verdana, Geneva, sans-serif;
     transition: background-color 0.3s, color 0.3s;
     margin: 0;
     padding: 0;
@@ -20,6 +20,7 @@ body {
 header {
     padding: 20px;
     text-align: center;
+    font-family: Impact, fantasy;
 }
 
 nav {
